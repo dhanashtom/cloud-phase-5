@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Contact</title>
+</head>
+<body>
+    <header>
+        <h1>My Travel Blog</h1>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="contact-section">
+            <h2>Get in Touch</h2>
+            <p>If you have any questions, suggestions, or would like to collaborate with us, please feel free to get in touch. We're here to help and are eager to hear from you.</p>
+        </section>
+
+        <section class="contact-section">
+            <h2>Contact Information</h2>
+            <p>You can reach us using the following contact details:</p>
+            <ul>
+                <li>Email: <a href="mailto:contact@mytravelblog.com">contact@mytravelblog.com</a></li>
+                <li>Phone: +1-123-456-7890</li>
+            </ul>
+        </section>
+
+        <section class="contact-section">
+            <h2>Contact Form</h2>
+            <p>You can also send us a message directly through the contact form below. We'll get back to you as soon as possible.</p>
+            
+            <form action="submit_contact_form.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 My Travel Blog</p>
+    </footer>
+</body>
+</html>
